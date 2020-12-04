@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## A3 GPCR Project
 
 You can use the [editor on GitHub](https://github.com/ash0896/ash0896.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
