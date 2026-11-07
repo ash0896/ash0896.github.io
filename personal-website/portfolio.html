@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Ashish Tamhankar</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">AT<span class="dot">.</span></a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="experience.html" class="nav-link">Experience</a></li>
+      <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+      <li><a href="publications.html" class="nav-link">Publications</a></li>
+      <li><a href="contact.html" class="nav-link nav-cta">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="page-header container">
+  <p class="section-num teal">Selected work</p>
+  <h1>Research Portfolio</h1>
+  <p>A gallery of projects spanning drug design, enzyme mechanism, and bioinorganic model chemistry.</p>
+</section>
+
+<section class="container reveal" style="padding-bottom:100px;">
+  <div class="portfolio-grid">
+
+    <div class="card portfolio-card">
+      <div class="portfolio-visual v1"><i class="fas fa-flask"></i></div>
+      <h3>Second-Sphere Synergy in LPMO Catalysis</h3>
+      <div class="tags"><span class="tag">QM/MM</span><span class="tag">DFT</span><span class="tag">LED</span><span class="tag">Biocatalysis</span></div>
+      <p>Dissecting how cooperative second-sphere residues modulate O₂ and H₂O₂ activation in copper-dependent lytic polysaccharide monooxygenases — lead computational project within the ERC Synergy Grant CUBE consortium.</p>
+      <a href="publications.html#pub9" class="portfolio-link">Read more <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="card portfolio-card">
+      <div class="portfolio-visual v2"><i class="fas fa-wave-square"></i></div>
+      <h3>Electronic Structure Meets X-ray Spectroscopy</h3>
+      <div class="tags"><span class="tag">TDDFT</span><span class="tag">HERFD-XAS</span><span class="tag">Cu(I) Enzymes</span></div>
+      <p>Integrating high-energy-resolution fluorescence-detected XAS with TDDFT calculations to dissect first- and second-sphere electronic effects governing reactivity in Cu(I) LPMOs.</p>
+      <a href="publications.html#pub7" class="portfolio-link">Read more <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="card portfolio-card">
+      <div class="portfolio-visual v3"><i class="fas fa-circle-nodes"></i></div>
+      <h3>Reactivity of a Synthetic Diiron Peroxo Complex</h3>
+      <div class="tags"><span class="tag">DFT</span><span class="tag">Electronic Structure</span><span class="tag">Model Complexes</span></div>
+      <p>Computational and electronic-structure analysis supporting mechanistic studies of a μ-1,2-peroxo Fe(III)Fe(III) model complex's formation pathways and reactivity.</p>
+      <a href="publications.html#pub6" class="portfolio-link">Read more <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="card portfolio-card">
+      <div class="portfolio-visual v4"><i class="fas fa-seedling"></i></div>
+      <h3>Chitin Binding Effects on LPMO Structure & Reactivity</h3>
+      <div class="tags"><span class="tag">MD</span><span class="tag">Binding Free Energy</span><span class="tag">X-ray Spectroscopy</span></div>
+      <p>Combining computation, binding free-energy analysis, and experimental spectroscopy to reveal structural and electronic modulations of LPMOs upon substrate binding.</p>
+      <a href="publications.html#pub5" class="portfolio-link">Read more <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="card portfolio-card">
+      <div class="portfolio-visual v5"><i class="fas fa-bolt"></i></div>
+      <h3>A Redox Switch in Transaldolase</h3>
+      <div class="tags"><span class="tag">S K-edge XAS</span><span class="tag">TDDFT</span><span class="tag">Enzyme Mechanism</span></div>
+      <p>Identified a lysine–cysteine redox switch forming a NOS bridge in transaldolase, combining sulfur K-edge XAS with TDDFT electronic structure calculations.</p>
+      <a href="publications.html#pub3" class="portfolio-link">Read more <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="card portfolio-card">
+      <div class="portfolio-visual v6"><i class="fas fa-capsules"></i></div>
+      <h3>Structure-Based Design of A3 Adenosine GPCR Ligands</h3>
+      <div class="tags"><span class="tag">Docking</span><span class="tag">MD</span><span class="tag">FEP</span><span class="tag">GPCR</span></div>
+      <p>Molecular docking, MD, and free-energy perturbation (QresFEP) analysis to characterize antagonist binding and guide design of novel pharmacological tools for the A3 adenosine receptor.</p>
+      <a href="publications.html#pub1" class="portfolio-link">Read more <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-social">
+    <a href="mailto:ashishtamhankar08@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://orcid.org/0009-0000-4010-2501" target="_blank" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+  </div>
+  <p>Designed & built by Ashish Tamhankar &middot; &copy; 2026</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
